@@ -3,3 +3,6 @@
 Whats's all the fuss about Functional Programming?
 
 — Alcides Fonseca
+
+
+https://github.com/alcides/haskell_tutorial
