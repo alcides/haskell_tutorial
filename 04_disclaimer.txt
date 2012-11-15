@@ -1,0 +1,5 @@
+
+
+I don't want you to give up JS/Ruby/Python/Java/WTV and start using Python.
+
+The goal is to take the good things of Haskell and use them in your language.

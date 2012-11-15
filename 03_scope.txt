@@ -1,0 +1,8 @@
+
+
+This talk is about:
+
+	- Functional Programming
+	- Haskell
+	- Other languages
+		(C, Java, Python, Scala, Ruby)
