@@ -11,7 +11,7 @@ data Date = Date {
 		month :: Month,
 		day :: Day
 	}
-	deriving Show
+	deriving (Show)
 
 tomorrow = Date 2012 11 17
 
