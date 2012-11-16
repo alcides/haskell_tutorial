@@ -1,0 +1,7 @@
+What really matters about FP:
+
+- Composable Code
+
+- Automatic Parallelism
+
+- Verification

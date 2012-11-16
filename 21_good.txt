@@ -1,0 +1,7 @@
+Good Things about FP:
+
+- Modularity of Patterns with 1001 classes
+- Data Types and Operations are apart
+	(can be associated by modules or Type Classes)
+- Signatures express all Side-Effects
+	- Some bugs are easier to find

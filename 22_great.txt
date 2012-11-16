@@ -1,0 +1,11 @@
+Great Things About Haskell:
+
+If your function has more than 5 lines, it is wrong.
+
+If you code compiles, it will almost surely work.
+
+Speeds at the order of magnitude of C.
+
+Hackage and Cabal
+
+Hoogle
