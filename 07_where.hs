@@ -2,7 +2,7 @@
 
 times :: Int -> Int -> Int
 times n x = sum xs
-		where xs = x:xs
+		where xs = [ x | i <-[1..n] ]
 
 double :: Int -> Int
 double x = times 2 x
