@@ -2,6 +2,8 @@
 
 Alcides Fonseca
 
-alcidesfonseca.com
+http://alcidesfonseca.com
+
+http://github.com/alcides
 
 tags: Compilers, Concurrency, Parallel, GPGPU

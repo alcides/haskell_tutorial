@@ -1,7 +1,5 @@
 #!/usr/bin/env runhaskell
 
--- import Prelude hiding ((+))
-
 type Year = Int
 type Month = Int
 type Day = Int
@@ -18,12 +16,24 @@ data Date = Date {
 eqDate :: Date -> Date -> Bool
 eqDate one another = all (\f -> (f one) == (f another)) [year, month, day] 
 
+-- eqDate tells us if two dates are equal. But why not use the == operator?
+-- the Eq typeclass is a class of types that all share some functions.
+-- In these case all types that implement the Eq typeclass must define the (==)
+-- operator. Typeclasses are, in my point of view, similar to interfaces in 
+-- Java/etc...
+
 instance Eq Date where  
 	(==) = eqDate
-	
-	
+-- This reads: type Date is of class Eq, and (==) is the same as eqDate.
+
+-- Now we can define our own typeclasses. We create a new Addable typeclass.
+-- All types a must define <-- to be Addable.
+
 class Addable a where
 	(<--) :: a -> a -> a
+	
+-- Dates are Addable, as they can be added together. Notice that we can make 
+-- Ints Addable as well.
 	
 instance Addable Date where
 	(<--) = addDateAndDate

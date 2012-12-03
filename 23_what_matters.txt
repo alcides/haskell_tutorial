@@ -4,4 +4,4 @@ What really matters about FP:
 
 - Automatic Parallelism
 
-- Verification
+- Verification of Correctness

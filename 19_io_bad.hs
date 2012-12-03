@@ -1,5 +1,12 @@
 #!/usr/bin/env runhaskell
 
+-- This is an example of bad usage of IO in your program. This is result of 
+-- splitting your program by blocks as you see then linearly.
+
+-- In FP, you extract blocks by behavior and not by order. You can see that
+-- all these functions (except the functional core func) have the IO mark.
+-- This means that if I want to reuse any function, the caller function, will
+-- have to bear the IO mark and so on. This is horrible for code reuse.
 
 getNum :: Int -> IO (Int)
 getNum n = do

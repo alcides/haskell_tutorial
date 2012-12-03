@@ -1,8 +1,15 @@
 #!/usr/bin/env runhaskell
 
+-- In this example we have two definitions (times and power), that share the
+-- same structure (recursive call until argument is 1), they are only different
+-- in one detail: the + or * operator used.
+
+-- This is one of those cases where a GoF enthusiast would recommend you to use
+-- a design pattern. Which is a good idea. But the most common design pattern
+-- in FP is very, very simple. (Next slide)
 
 times 1 n = n
-times a b = a * (times (b-1) a)
+times a b = a + (times (b-1) a)
 
 double = times 2
 triple = times 3

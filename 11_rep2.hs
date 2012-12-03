@@ -5,8 +5,8 @@ double a = 2 * a
 triple :: Int -> Int
 triple a = 3 * a
 
--- WOOOW
-
+-- Now we have the same problem with double and tripleList. The have a common
+-- structure, but the specific function applied to each element is different.
 
 doubleList :: [Int] -> [Int]
 doubleList [] = []

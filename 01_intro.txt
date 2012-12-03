@@ -2,6 +2,8 @@
 
 Whats's all the fuss about Functional Programming?
 
+@ Codebits VI (Nov 2012)
+
 — Alcides Fonseca
 
 

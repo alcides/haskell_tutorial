@@ -5,6 +5,12 @@ type Year = Int
 type Month = Int
 type Day = Int
 
+-- Introducing records. They are the same as before, but they automatically
+-- create new functions:
+-- year :: Date -> Year
+-- month :: Date -> Month
+-- day :: Date -> Day
+
 -- Date: YYYY MMM D
 data Date = Date {
 		year :: Year,

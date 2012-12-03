@@ -1,5 +1,8 @@
 #!/usr/bin/env runhaskell
 
+-- Same as before, but more complex usage. Notice the dayOf, monthOf and yearOf
+-- functions, used to extract elements of the date. This is really painful, 
+-- right? (Next Slide)
 
 type Year = Int
 type Month = Int

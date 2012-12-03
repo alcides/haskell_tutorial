@@ -3,3 +3,16 @@
 I don't want you to give up JS/Ruby/Python/Java/WTV and start using Python.
 
 The goal is to take the good things of Haskell and use them in your language.
+
+
+
+"Lisp is worth learning for the profound enlightenment experience you will
+have when you finally get it; that experience will make you a better
+programmer for the rest of your days, even if you never actually use Lisp
+itself a lot."
+
+— Eric Raymond (on Lisp)
+
+"Same applies for Haskel."
+
+— Alcides Fonseca

@@ -1,11 +1,11 @@
 Great Things About Haskell:
 
-If your function has more than 5 lines, it is wrong.
+If your function has more than 5 lines, it is wrong. (My experience)
 
-If you code compiles, it will almost surely work.
+If you code compiles, it will almost surely work. (Several personal experiences)
 
 Speeds at the order of magnitude of C.
 
-Hackage and Cabal
+Hackage and Cabal (CPAN/RubyGems/PyPi for Haskell)
 
-Hoogle
+Hoogle (Try searching for "[a] -> [b]" or "Int -> Int")
